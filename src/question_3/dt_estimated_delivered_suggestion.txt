@@ -1,0 +1,4 @@
+- take brands' estimated delivery time by distance
+- using machine learning and predictive analytics techniques to estimate delivery dates more accurately
+- Real time tracking
+- Drop shipping and fast tracking of orders

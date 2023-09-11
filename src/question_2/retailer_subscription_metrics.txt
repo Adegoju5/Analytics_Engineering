@@ -1,0 +1,4 @@
+In terms of efficiency, the updated query with the subquery and window function is generally expected to be
+more efficient than the original query with the correlated subquery. The reason is that window functions are
+typically highly optimized in modern database systems, and the use of a single subquery for calculating
+first_period_discount can often lead to better query execution plans...

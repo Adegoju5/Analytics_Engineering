@@ -1,0 +1,8 @@
+Using Incremental Materialization:
+
+If the data in the orders table is frequently updated or new records are added frequently,
+you can use incremental materialization in DBT.
+Set the materialized parameter to "incremental" in the revenue_daily model.
+
+With this approach, DBT will handle the materialization and maintenance of the revenue_daily model for you,
+making it easier to manage the data and improving the charts' loading time.

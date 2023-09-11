@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: revenue_daily
+    materialized: incremental
+    incremental_strategy: date
+    unique_key: id
+    updated_at: dt_day
+    columns:
+      - id
+      - dt_day
+      - retailer_country_group
+      - order_type
+      - total_revenue
